@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <script src="Assignment_HRA.js"></script>
+    
+        <title>Send Greeting Card</title>
+    
+        <style>
+            body{
+                background-color: #81F43E;
+            }
+            .middle{
+                align-items: center;
+            }
+            #text{
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-style: italic;
+                font-size: 40px;
+                color:#28B463;
+                font-weight: lighter;
+            }
+            #enternamebox{
+                border-radius: 25px;
+                border:2px solid #609;
+                padding:15px;
+                width:280px;
+                height:10px;
+                font-size: 20px;
+                text-align: center;
+            }
+            #borderbackground{
+                height: auto;
+                border: 10px transparent;
+                padding: 50px;
+                border-image: url("HRA.png") 5 fill;
+                margin:auto;
+            }
+            text{
+                font-size: 20px;
+            }
+            @media only screen and (max-width: 500px){
+                nav{
+                    
+                }
+            }
+        </style>
+    </head>
+        <body>
+            <div id="borderbackground" align="center">
+                <meta name="viewport" content="width=device-width/1.5, initial-scale=0.53">
+                <div align="center" style="align-content: center;">
+                    <p>&nbsp;</p>
+                    <h1 id="text">Wish you Hari Raya Aidilfitri !</h1>               
+                    <p>
+                        <img src="light.png" width="500px" height="400px" align="center" alt="Greeting Card GIF">
+                    </p>
+                    <br><br><br>
+                    <text size="4" color="black">
+                        <b>Send E-Card:</b>
+                    </text>
+                    <input onfocus="if(this.value == 'Please enter your name') {this.value='';}" type="text" placeholder="Please enter your name" name="myname" value="Please enter your name" id="textboxid">
+                    <img onclick="sendtowhatsapp();" src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c543.png" width="60px" alt="whatsapp_logo" align="middle" style="max-width:80%;height:auto;">
+                </div>
+            </div>
+            <audio src="Selamat HRA.mp3" autoplay="" loop=""></audio>
+        </body>
+</html>
