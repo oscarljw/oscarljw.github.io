@@ -5,7 +5,7 @@ function testjs()
 	var editedname2 = editedname.replace("~", "%20");
 	var editedname3 = editedname2.replace("~", "%20");
 	var editedname4 = editedname3.replace("~", "%20");
-	window.location = 'http://dcs5604.com/cny20201.html?text='+editedname4;
+	window.location = 'oscarljw.github.io/Assignment_CNY.html?text='+editedname4;
 }
 function getmytext() {
 	var mytext = getUrlVars()["text"];
@@ -26,7 +26,7 @@ var mytext = getUrlVars()["text"];
 	var outputVal2 = outputVal.replace(" ", "~");
 	var outputVal3 = outputVal2.replace(" ", "~");
 	var outputVal4 = outputVal3.replace(" ", "~");
-	window.location = 'http://wa.me/?text='+inputVal+' wishing you a Happy Chinese New Year 2020 %0A%0AOpen this ðŸ‘‡ %0A%0Aoscarljw.github.io/Assignment_CNY.html?name='+outputVal4;
+window.location = 'http://wa.me/?text='+inputVal+' wishing you a Happy Chinese New Year 2020 %0A%0AOpen this ðŸ‘‡ %0A%0Aoscarljw.github.io/Assignment_CNY.html?name='+outputVal4;
 }
 
 function loadname() {
