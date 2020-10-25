@@ -1,5 +1,4 @@
-function testjs()
-{
+function testjs() {
 	var firsttext = getUrlVars()["name"];
 	var editedname = firsttext.replace("~", "%20");
 	var editedname2 = editedname.replace("~", "%20");
