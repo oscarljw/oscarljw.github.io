@@ -13,7 +13,7 @@ var mytext = getUrlVars()["text"];
 	var outputVal2 = outputVal.replace(" ", "~");
 	var outputVal3 = outputVal2.replace(" ", "~");
 	var outputVal4 = outputVal3.replace(" ", "~");
-window.location = 'http://wa.me/?text='+inputVal+' wishing you a Happy Chinese New Year 2020 %0A%0AOpen this ðŸ‘‡ %0A%0Adcs5604.com/cny2020.html?name='+outputVal4;
+window.location = 'http://wa.me/?text='+inputVal+' wishing you a Happy Chinese New Year 2020 %0A%0AOpen this ðŸ‘‡ %0A%0Ahttps://oscarljw.github.io/Assignment_CNY2.html?name='+outputVal4;
 }
 
 function loadname() {
